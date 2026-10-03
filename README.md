@@ -32,12 +32,15 @@ viết bằng numpy từ đầu, chạy trên dữ liệu thật. Mọi con số
 | 25 · RNN trở lại (linear attention & Mamba) | [25-rnn-tro-lai.ipynb](25-rnn-tro-lai.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/25-rnn-tro-lai.ipynb) |
 | 26 · Từ mô hình ngôn ngữ đến trợ lý | [26-hau-huan-luyen.ipynb](26-hau-huan-luyen.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/26-hau-huan-luyen.ipynb) |
 | Chuyên đề 01 · Thực hành chữa gradient biến mất | [cd01-thuc-hanh-gradient-bien-mat.ipynb](cd01-thuc-hanh-gradient-bien-mat.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd01-thuc-hanh-gradient-bien-mat.ipynb) |
+| Chuyên đề 02 · Kiểm chứng nghiên cứu mới về huấn luyện | [cd02-nghien-cuu-huan-luyen.ipynb](cd02-nghien-cuu-huan-luyen.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd02-nghien-cuu-huan-luyen.ipynb) |
+| Chuyên đề 03 · Kiểm chứng nghiên cứu mới về mô hình sinh và hậu huấn luyện | [cd03-nghien-cuu-sinh-va-hau-huan-luyen.ipynb](cd03-nghien-cuu-sinh-va-hau-huan-luyen.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd03-nghien-cuu-sinh-va-hau-huan-luyen.ipynb) |
 
 Đủ 26 bài của khóa học, từ Perceptron đến hậu huấn luyện. Một số bài nạp kết quả các lần huấn luyện dài từ thư mục `data/` (có kiểm tra MD5).
 
-Các **chuyên đề** (`cdNN-…`) là phần thực hành thêm ngoài lộ trình. Chuyên đề 01 chạy lại mã PyTorch của tài liệu
-*"Tutorial: Vanishing Gradient"* (Nguyễn Thọ Anh Khoa, Nguyễn Phúc Thịnh, Dương Đình Thắng, Nguyễn Anh Khôi) trên
-Fashion-MNIST, nên khác các bài khác ở chỗ dùng PyTorch thay cho numpy từ đầu.
+Các **chuyên đề** (`cdNN-…`) là phần thực hành thêm ngoài lộ trình, và dùng PyTorch thay cho numpy từ đầu.
+Chuyên đề 01 chạy lại mã PyTorch của tài liệu *"Tutorial: Vanishing Gradient"* (Nguyễn Thọ Anh Khoa, Nguyễn Phúc Thịnh,
+Dương Đình Thắng, Nguyễn Anh Khôi) trên Fashion-MNIST. Chuyên đề 02 và 03 kiểm lại tám kết quả nghiên cứu gần đây
+(2021–2025) trên các bài toán nhỏ, và ghi rõ mỗi kết quả khớp, không khớp hay tùy điều kiện.
 
 ## Cách chạy
 
@@ -49,7 +52,7 @@ Fashion-MNIST, nên khác các bài khác ở chỗ dùng PyTorch thay cho numpy
   jupyter lab 01-perceptron.ipynb
   ```
 
-  Chuyên đề 01 cần thêm PyTorch (`pip install torch`).
+  Các chuyên đề cần thêm PyTorch (`pip install torch`).
 
 Notebook được kiểm thử với đúng phiên bản của Colab hiện tại (Python 3.13, numpy 2.1.3, matplotlib 3.10.0, torch 2.11.0). Mỗi bài chạy
 dưới 1 phút trên CPU.
