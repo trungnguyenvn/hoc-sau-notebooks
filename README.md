@@ -34,6 +34,7 @@ viết bằng numpy từ đầu, chạy trên dữ liệu thật. Mọi con số
 | Chuyên đề 01 · Thực hành chữa gradient biến mất | [cd01-thuc-hanh-gradient-bien-mat.ipynb](cd01-thuc-hanh-gradient-bien-mat.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd01-thuc-hanh-gradient-bien-mat.ipynb) |
 | Chuyên đề 02 · Kiểm chứng nghiên cứu mới về huấn luyện | [cd02-nghien-cuu-huan-luyen.ipynb](cd02-nghien-cuu-huan-luyen.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd02-nghien-cuu-huan-luyen.ipynb) |
 | Chuyên đề 03 · Kiểm chứng nghiên cứu mới về mô hình sinh và hậu huấn luyện | [cd03-nghien-cuu-sinh-va-hau-huan-luyen.ipynb](cd03-nghien-cuu-sinh-va-hau-huan-luyen.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd03-nghien-cuu-sinh-va-hau-huan-luyen.ipynb) |
+| Chuyên đề 04 · Học tăng cường từ phản hồi của người (RLHF) | [cd04-rlhf.ipynb](cd04-rlhf.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd04-rlhf.ipynb) |
 
 Đủ 26 bài của khóa học, từ Perceptron đến hậu huấn luyện. Một số bài nạp kết quả các lần huấn luyện dài từ thư mục `data/` (có kiểm tra MD5).
 
