@@ -38,9 +38,9 @@ viết bằng numpy từ đầu, chạy trên dữ liệu thật. Mọi con số
 Đủ 26 bài của khóa học, từ Perceptron đến hậu huấn luyện. Một số bài nạp kết quả các lần huấn luyện dài từ thư mục `data/` (có kiểm tra MD5).
 
 Các **chuyên đề** (`cdNN-…`) là phần thực hành thêm ngoài lộ trình, và dùng PyTorch thay cho numpy từ đầu.
-Chuyên đề 01 chạy lại mã PyTorch của tài liệu *"Tutorial: Vanishing Gradient"* (Nguyễn Thọ Anh Khoa, Nguyễn Phúc Thịnh,
-Dương Đình Thắng, Nguyễn Anh Khôi) trên Fashion-MNIST. Chuyên đề 02 và 03 kiểm lại tám kết quả nghiên cứu gần đây
-(2021–2025) trên các bài toán nhỏ, và ghi rõ mỗi kết quả khớp, không khớp hay tùy điều kiện.
+Chuyên đề 01 chạy lại mã PyTorch của một bài thực hành về gradient biến mất, trên Fashion-MNIST. Chuyên đề 02 và 03
+kiểm lại tám kết quả nghiên cứu gần đây (2021–2025) trên các bài toán nhỏ, và ghi rõ mỗi kết quả khớp, không khớp hay
+tùy điều kiện.
 
 ## Cách chạy
 
@@ -63,6 +63,5 @@ Notebook không kèm output: hãy tự chạy, và trả lời các câu “🤔
 
 - Mã nguồn: [MIT](LICENSE).
 - Nội dung bài viết và hình vẽ: [CC BY 4.0](LICENSE-CONTENT).
-- Mã của tài liệu "Tutorial: Vanishing Gradient" trong Chuyên đề 01 thuộc về các tác giả của nó và được dùng khi có
-  sự cho phép; nó không nằm trong giấy phép MIT ở trên.
+- Mã PyTorch chép từ bài thực hành gốc trong Chuyên đề 01 không nằm trong giấy phép MIT ở trên.
 - MNIST (LeCun, Cortes & Burges) và Fashion-MNIST (Zalando Research, MIT) không nằm trong repo; notebook tải chúng lúc chạy.
