@@ -71,6 +71,8 @@ viết bằng numpy từ đầu, chạy trên dữ liệu thật. Mọi con số
 | Chuyên đề 06 · VQ-VAE: turning images into tokens (English) | [cd06-vq-vae-en.ipynb](cd06-vq-vae-en.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd06-vq-vae-en.ipynb) |
 | Chuyên đề 07 · MOSS-TTS: từ âm thanh thô đến mô hình đọc | [cd07-moss-tts.ipynb](cd07-moss-tts.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd07-moss-tts.ipynb) |
 | Chuyên đề 07 · MOSS-TTS: from raw audio to a speech generator (English) | [cd07-moss-tts-en.ipynb](cd07-moss-tts-en.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd07-moss-tts-en.ipynb) |
+| Chuyên đề 08 · Qwen3-TTS: hai bộ token hóa và một mô hình nói theo luồng | [cd08-qwen3-tts.ipynb](cd08-qwen3-tts.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd08-qwen3-tts.ipynb) |
+| Chuyên đề 08 · Qwen3-TTS: two tokenizers and a streaming speech model (English) | [cd08-qwen3-tts-en.ipynb](cd08-qwen3-tts-en.ipynb) | [![Mở trong Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/hoc-sau-notebooks/blob/main/cd08-qwen3-tts-en.ipynb) |
 
 Đủ 26 bài của khóa học, từ Perceptron đến hậu huấn luyện. Một số bài nạp kết quả các lần huấn luyện dài từ thư mục `data/` (có kiểm tra MD5).
 
